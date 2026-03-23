@@ -22,6 +22,9 @@ console.print(df.isnull().sum())
 
 
 def show_counts(title, series):
+    """Helper function to display value counts in a table"""
+
+    
     table = Table(title=title)
 
     table.add_column("Value", style="cyan")
