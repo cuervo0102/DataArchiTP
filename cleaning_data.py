@@ -21,8 +21,8 @@ for column, percentage in missing_percentage.items():
 
 console.print(missing_table)
 
-df_cleaned = df.dropna()
+df = df.dropna()
 console.print("\n[bold green]Missing Values After Cleaning:[/bold green]")
-console.print(df_cleaned.isnull().sum())
+console.print(df.isnull().sum())
 
 
